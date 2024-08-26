@@ -1,4 +1,19 @@
 About:
+    In this project, I explore recursion in functions. I have created a task schedule manager that sorts tasks by their priority levels. 
+  The priority is stored as an integer and converted to a string once sorted for the user. I use recursion to handle each task’s subtasks until 
+  it encounters an empty array, sorting each subtask list as the recursion progresses. The function’s output is a list of tasks sorted by highest 
+  priority, with their children also sorted. It then moves on to the next task and its children, continuing this process.
+
+    This assignment challenged me to think deeply about how to sort and call the function recursively. Ultimately, I decided to use Python’s 
+  built-in sorted function (which uses the Tim Sort algorithm) with a lambda function to loop through all the priorities before calling my 
+  nested function and repeating the process. 
+
+Time Complexity: 
+  O(n log n) -n is the number of items in the dictionary.
+
+Space Complexity:
+  O(n) -depending on the number of items is the amount of space that it takes up
+
 
 
 

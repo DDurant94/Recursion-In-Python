@@ -16,3 +16,4 @@ CodeWars:
 <https://www.codewars.com/users/ddurant94>
 
 About:
+This program focuses on recursion and sorting tasks in a schedule by their priority levels and nested tasks within parent tasks. To learn more, please refer to docs.txt within this repository.
